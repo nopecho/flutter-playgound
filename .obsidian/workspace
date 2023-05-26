@@ -1,0 +1,145 @@
+{
+  "main": {
+    "id": "62139526a243612d",
+    "type": "split",
+    "children": [
+      {
+        "id": "620803c0463ba2ae",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8e3f92ba0206447e",
+    "type": "split",
+    "children": [
+      {
+        "id": "bcb59621bbe50524",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7cac127e5c7c3467",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "deb9365d20351277",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0d0a93fb19a9508b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 266.5
+  },
+  "right": {
+    "id": "5b762a9d18a41abf",
+    "type": "split",
+    "children": [
+      {
+        "id": "e7f1c9b3555d3d96",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a4a1e305117cac3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3e7038771175e0d7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f48fdac3e4574704",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "18904baf3c5532f2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "07722530e06c6477",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "7cac127e5c7c3467",
+  "lastOpenFiles": [
+    "Experience/trevari/1. VPC 구축 및 이전.md",
+    "Experience/trevari/2. 프로젝트 설정 파일 통합.md",
+    "Experience/trevari/0.   AWS 보안 강화.md",
+    "Experience/trevari/6. 로컬 테스트 환경 구축 자동화.md",
+    "Experience/trevari/5. 모니터링 시스템 구축.md",
+    "Experience/trevari/4. 로그 시스템 구축.md",
+    "Experience/trevari/3. 컨테이너 환경 도입.md",
+    "Experience/trevari/7..md",
+    "Experience/trevari/3-2. 배포 파이프라인 변경.md",
+    "Experience/trevari/3-1. 쿠버네티스 환경 구축.md"
+  ]
+}
