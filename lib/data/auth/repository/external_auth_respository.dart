@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:flutter_playgound/data/auth/data_source/external/auth_api.dart';
 import 'package:flutter_playgound/domain/auth/models/auth.dart';
 import 'package:flutter_playgound/domain/auth/models/login.dart';

@@ -29,6 +29,7 @@ dependencies:
   retrofit_generator: ^7.0.1
   dio: ^5.1.2
   json_serializable: ^6.7.0
+  flutter_dotenv: ^5.0.2
 
 dev_dependencies:
   flutter_test:

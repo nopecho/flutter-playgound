@@ -10,8 +10,6 @@ import 'package:flutter_playgound/ui/pages/login/view-models/login_view_model.da
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:get/get.dart';
 
-const String baseUrl = "http://localhost:8080";
-
 Future<void> setAuthProviderConfig(FlutterSecureStorage storage, Dio dio) async {
   final authApi = AuthApi(dio);
   final secureStorage = SecureStorage(storage);
