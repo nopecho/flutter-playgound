@@ -5,4 +5,7 @@ class SecureStorage {
 
   SecureStorage(this.storage);
 
+  Future<void> write(String key, String value) async {
+    await storage.write(key: key, value: value);
+  }
 }
