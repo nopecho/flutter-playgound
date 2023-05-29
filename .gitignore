@@ -35,7 +35,7 @@ migrate_working_dir/
 *.g.dart
 *.freezed.dart
 
-assets/config/.env.prod
+*.env.prod
 
 # Symbolication related
 app.*.symbols

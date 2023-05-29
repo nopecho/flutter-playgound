@@ -30,6 +30,7 @@ dependencies:
   dio: ^5.1.2
   json_serializable: ^6.7.0
   flutter_dotenv: ^5.0.2
+  jwt_decoder: ^2.0.1
 
 dev_dependencies:
   flutter_test:
@@ -39,4 +40,7 @@ dev_dependencies:
   freezed: ^2.3.4
 
 flutter:
+  assets:
+    - assets/.env.dev
+    - assets/.env.prod
   uses-material-design: true

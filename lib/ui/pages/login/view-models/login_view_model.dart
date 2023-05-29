@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:flutter_playgound/domain/auth/models/auth.dart';
 import 'package:flutter_playgound/domain/auth/models/login.dart';
 import 'package:flutter_playgound/domain/auth/models/login_method.dart';
@@ -29,20 +27,20 @@ class LoginViewModel extends GetxController {
 
     result.when(
         success: (data) async {
-          await onSuccess(data);
+          await onLoginSuccess(data);
         },
         error: (error) async {
-          await onFail(error);
+          await onLoginFail(error);
         }
     );
   }
 
-  Future<void> onSuccess(Auth data) async {
+  Future<void> onLoginSuccess(Auth data) async {
     await _useCases.saveAuth(data);
     Get.toNamed("/");
   }
 
-  Future<void> onFail(String error) async {
+  Future<void> onLoginFail(String error) async {
     Get.offAllNamed("/signup");
   }
 }

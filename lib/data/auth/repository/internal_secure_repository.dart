@@ -11,4 +11,9 @@ class InternalSecureRepository extends SecureRepository {
   Future<void> write(String key, String value) async {
     await storage.write(key, value);
   }
+
+  @override
+  Future<String?> read(String key) async {
+    return await storage.read(key);
+  }
 }

@@ -3,12 +3,10 @@ import 'package:flutter_playgound/config/auth_provider_config.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-const String devEnvPath = 'config/.env.dev';
-const String prodEnvPath = 'config/.env.prod';
 bool isProduction() => const bool.fromEnvironment('dart.vm.product');
 
 Future<void> setupAppConfig() async {
-  await dotenv.load(fileName: isProduction() ? prodEnvPath : devEnvPath);
+  await dotenv.load(fileName: isProduction() ? 'assets/.env.prod' : 'assets/.env.dev');
 
   const FlutterSecureStorage storage = FlutterSecureStorage();
   final Dio dio = Dio(
