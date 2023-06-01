@@ -1,9 +1,9 @@
 import 'package:flutter_playgound/domain/auth/models/login.dart';
 import 'package:flutter_playgound/domain/auth/models/login_method.dart';
-import 'package:flutter_playgound/ui/pages/login/view-models/login_event.dart';
-import 'package:flutter_playgound/ui/pages/login/view-models/login_view_model.dart';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_playgound/ui/pages/login/view_models/login_event.dart';
+import 'package:flutter_playgound/ui/pages/login/view_models/login_view_model.dart';
 import 'package:get/get.dart';
 
 class LoginPage extends StatefulWidget {
