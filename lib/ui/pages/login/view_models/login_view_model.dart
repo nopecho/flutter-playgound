@@ -3,8 +3,9 @@ import 'package:flutter_playgound/domain/auth/models/login.dart';
 import 'package:flutter_playgound/domain/auth/models/login_method.dart';
 import 'package:flutter_playgound/domain/auth/use_case/auth_use_cases.dart';
 import 'package:flutter_playgound/domain/result.dart';
-import 'package:flutter_playgound/ui/pages/login/view-models/login_event.dart';
 import 'package:get/get.dart';
+
+import 'login_event.dart';
 
 class LoginViewModel extends GetxController {
   final AuthUseCases _useCases;

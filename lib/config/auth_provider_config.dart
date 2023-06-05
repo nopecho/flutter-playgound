@@ -8,7 +8,8 @@ import 'package:flutter_playgound/domain/auth/use_case/check_login_use_case.dart
 import 'package:flutter_playgound/domain/auth/use_case/get_login_user_id_use_case.dart';
 import 'package:flutter_playgound/domain/auth/use_case/login_use_case.dart';
 import 'package:flutter_playgound/domain/auth/use_case/save_auth_use_case.dart';
-import 'package:flutter_playgound/ui/pages/login/view-models/login_view_model.dart';
+import 'package:flutter_playgound/ui/pages/login/view_models/login_view_model.dart';
+import 'package:flutter_playgound/ui/pages/signup/view_models/signup_view_model.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:get/get.dart';
 
@@ -27,4 +28,5 @@ Future<void> setAuthProviderConfig(FlutterSecureStorage storage, Dio dio) async 
   );
 
   Get.put(LoginViewModel(useCases));
+  Get.put(SignUpViewModel());
 }
