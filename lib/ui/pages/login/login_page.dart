@@ -76,27 +76,22 @@ class _LoginPageState extends State<LoginPage> {
                       mainAxisSize: MainAxisSize.max,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        if (responsiveVisibility(
-                          context: context,
-                          phone: false,
-                          tablet: false,
-                        ))
                           Container(
                             width: double.infinity,
                             height: 140.0,
                             decoration: BoxDecoration(
                               color: FlutterFlowTheme.of(context)
                                   .secondaryBackground,
-                              borderRadius: BorderRadius.only(
+                              borderRadius: const BorderRadius.only(
                                 bottomLeft: Radius.circular(16.0),
                                 bottomRight: Radius.circular(16.0),
                                 topLeft: Radius.circular(0.0),
                                 topRight: Radius.circular(0.0),
                               ),
                             ),
-                            alignment: AlignmentDirectional(-1.0, 0.0),
+                            alignment: const AlignmentDirectional(-1.0, 0.0),
                             child: Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
+                              padding: const EdgeInsetsDirectional.fromSTEB(
                                   24.0, 0.0, 0.0, 0.0),
                               child: Text(
                                 'nopecho.io',
@@ -112,7 +107,7 @@ class _LoginPageState extends State<LoginPage> {
                           ),
                         Container(
                           width: double.infinity,
-                          constraints: BoxConstraints(
+                          constraints: const BoxConstraints(
                             maxWidth: 430.0,
                           ),
                           decoration: BoxDecoration(
@@ -120,9 +115,9 @@ class _LoginPageState extends State<LoginPage> {
                                 .secondaryBackground,
                           ),
                           child: Align(
-                            alignment: AlignmentDirectional(0.0, 0.0),
+                            alignment: const AlignmentDirectional(0.0, 0.0),
                             child: Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
+                              padding: const EdgeInsetsDirectional.fromSTEB(
                                   24.0, 24.0, 24.0, 24.0),
                               child: Column(
                                 mainAxisSize: MainAxisSize.max,
@@ -407,7 +402,7 @@ class _LoginPageState extends State<LoginPage> {
                                         0.0, 0.0, 0.0, 16.0),
                                     child: FFButtonWidget(
                                       onPressed: () async {
-                                        Get.toNamed("/signup");
+                                        Get.toNamed("/");
                                       },
                                       text: 'Google',
                                       icon: const FaIcon(
@@ -446,14 +441,14 @@ class _LoginPageState extends State<LoginPage> {
                                     ),
                                   ),
                                   Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
                                         0.0, 0.0, 0.0, 16.0),
                                     child: FFButtonWidget(
                                       onPressed: () async {
                                         Get.toNamed("/signup");
                                       },
                                       text: 'Apple',
-                                      icon: FaIcon(
+                                      icon: const FaIcon(
                                         FontAwesomeIcons.apple,
                                         size: 20.0,
                                       ),
