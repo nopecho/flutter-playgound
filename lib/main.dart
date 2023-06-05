@@ -62,7 +62,7 @@ class _MyAppState extends State<MyApp> {
       ],
       theme: ThemeData(brightness: Brightness.light),
       themeMode: _themeMode,
-      initialRoute: '/',
+      initialRoute: '/login',
       getPages: [
         GetPage(name: '/', page: () => const HomePage()),
         GetPage(name: '/login', page: () => const LoginPage()),
